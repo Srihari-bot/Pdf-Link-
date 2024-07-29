@@ -55,7 +55,7 @@ st.sidebar.image("sba_info_solutions_logo.jpg", caption='SBA')  # Path to your l
 uploaded_file = st.sidebar.file_uploader("Upload PDF files", type=["pdf"])
 
 # Streamlit UI
-st.title("SBA INFO SOLUTION")
+st.title("PDF Link Extractor and Content Summarizer")
 
 if uploaded_file is not None:
     # Extract links from the PDF
