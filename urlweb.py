@@ -51,7 +51,7 @@ def generate_summary(content):
     return response
 
 # Sidebar configuration
-st.sidebar.image("sba_logo.jpg", caption='SBA Logo')  # Path to your logo image
+st.sidebar.image("sba_info_solutions_logo.jpg", caption='SBA')  # Path to your logo image
 uploaded_file = st.sidebar.file_uploader("Upload PDF files", type=["pdf"])
 
 # Streamlit UI
