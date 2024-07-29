@@ -50,11 +50,12 @@ def generate_summary(content):
     response = llm.invoke(prompt)
     return response
 
+# Sidebar configuration
+st.sidebar.image("sba_logo.jpg", caption='SBA Logo')  # Path to your logo image
+uploaded_file = st.sidebar.file_uploader("Upload PDF files", type=["pdf"])
+
 # Streamlit UI
 st.title("SBA INFO SOLUTION")
-
-# Upload PDF file
-uploaded_file = st.file_uploader("Upload PDF files", type=["pdf"])
 
 if uploaded_file is not None:
     # Extract links from the PDF
