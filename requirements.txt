@@ -2,6 +2,6 @@ streamlit
 pdfplumber
 requests
 beautifulsoup4
-langchain-google-genai==0.1.0  # Replace with a known working version
-google-cloud==0.34.0  # Replace with a known working version
-google-auth==2.0.0  # Replace with a known working version
+langchain-google-genai
+google-cloud
+google-auth
